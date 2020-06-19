@@ -16,5 +16,6 @@ new Vue({
 });
 
 console.log(a);
+console.log(a);
 
 let a = 1;
