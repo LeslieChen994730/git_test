@@ -17,6 +17,7 @@ module.exports = {
 	plugins: ['vue','prettier'],
 	// add your custom rules here
 	rules: {
-		'prettier/prettier': ['error'],
+    'prettier/prettier': ['error'],
+    "no-console":1,
 	},
 };
