@@ -15,7 +15,4 @@ new Vue({
 	template: '<App/>',
 });
 
-console.log(a);
-console.log(a);
-
 let a = 1;
