@@ -18,6 +18,7 @@ module.exports = {
 	// add your custom rules here
 	rules: {
     'prettier/prettier': ['error'],
+    //配置eslint语法规则，0通过，1警告但是可以提交，2报错不允许commit
     "no-console":2,
 	},
 };
