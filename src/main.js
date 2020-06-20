@@ -7,11 +7,11 @@ import router from './router';
 Vue.config.productionTip = false;
 
 new Vue({
-	el: '#app',
+    el: '#app',
 
-	router,
+    router,
 
-	components: { App },
-	template: '<App/>',
+    components: { App },
+    template: '<App/>',
 });
 let a = 1;
