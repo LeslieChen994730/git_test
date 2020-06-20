@@ -10,17 +10,6 @@
     "lint": "eslint --ext .js,.vue src",
     "build": "node build/build.js"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
-  "lint-staged": {
-    "src/**": [
-      "prettier --config .prettierrc.js --write",
-      "git add"
-    ]
-  },
   "dependencies": {
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
@@ -81,5 +70,15 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**": [
+      "git add"
+    ]
+  }
 }
